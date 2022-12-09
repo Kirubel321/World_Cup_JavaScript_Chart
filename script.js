@@ -371,6 +371,26 @@ function g3DataInput(){
 
 }
 
+$(document).ready(function(){
+  
+  $("#gbtn1").click(function (ev) {
+    ev.preventDefault()
+    formInput();
+    g1DataInput();
+  });
+  $("#gbtn2").click(function (ev) {
+    ev.preventDefault()
+    formInput();
+    g2DataInput();
+  });
+  $("#gbtn3").click(function (ev) {
+    ev.preventDefault()
+    formInput();
+    g3DataInput();
+  
+  });
+
+});
 
 $(document).ready(function(){
   $("#btn1").click(function (ev) {
